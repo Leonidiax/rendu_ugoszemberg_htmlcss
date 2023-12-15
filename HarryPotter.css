@@ -1,26 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("hogwarts_legacy.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: black;
+  margin: 0;
+  padding-top: 70px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: rgb(209, 28, 28);
 }
 
 #buy {
   display: flex;
+  height: 500px;
+  align-items: center;
   justify-content: space-evenly;
 }
 
 .logo {
   height: 180px;
   width: 300px;
-  transition: 0.7s;
+  transition: 0.5s;
 }
 .logo:hover {
   border-radius: 70px;
 }
 
+header {
+  width: 100%;
+}
+
 nav {
-  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: black;
   height: 70px;
   display: flex;
   justify-content: space-around;
@@ -28,15 +53,28 @@ nav {
 
 .menu {
   color: white;
-  border-radius: 10px;
+  border-radius: 0px;
+  border-radius: 30px;
+  transition: color 0.3s;
 }
 .menu:hover {
-  background-color: white;
-  color: black;
-  text-decoration: underline;
+  color: rgb(209, 28, 28);
 }
 
 footer {
-  background-color: black;
+  background-color: rgb(97, 24, 24);
   height: 300px;
+  border: 10px solid rgb(150, 172, 25);
+  border-radius: 30px;
+}
+#font-gradient {
+  position: fixed;
+  bottom: 0;
+  width: 200vh;
+  height: 80px;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+}
+p {
+  color: white;
+  font-size: 30px;
 }
