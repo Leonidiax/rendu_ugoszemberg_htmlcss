@@ -1,0 +1,42 @@
+body {
+  background-image: url("hogwarts_legacy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#buy {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 180px;
+  width: 300px;
+  transition: 0.7s;
+}
+.logo:hover {
+  border-radius: 70px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  color: white;
+  border-radius: 10px;
+}
+.menu:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  height: 300px;
+}
