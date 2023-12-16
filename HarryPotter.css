@@ -4,7 +4,7 @@ html {
 
 body {
   background-image: url("hogwarts_legacy.png");
-  background-size: contain;
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-color: black;
   margin: 0;
@@ -23,7 +23,7 @@ nav a:hover {
 
 #buy {
   display: flex;
-  height: 500px;
+  height: 300px;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -88,4 +88,42 @@ p {
 
 .section1 {
   width: 70vw;
+}
+
+.no-deco a {
+  text-decoration: none;
+  color: white;
+}
+
+.no-deco a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .logo {
+    width: 30vw;
+    height: 70%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  body {
+    background-image: url(hogwarts_legacy_petit.png);
+  }
+
+  #buy {
+    height: 200px;
+  }
+
+  #logo_hp {
+    width: 200px;
+    height: 100px;
+  }
 }
