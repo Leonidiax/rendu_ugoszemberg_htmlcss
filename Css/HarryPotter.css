@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url("hogwarts_legacy.png");
+  background-image: url("../Background/hogwarts_legacy.png");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-color: black;
@@ -104,6 +104,11 @@ footer ul {
   list-style-type: none;
 }
 
+.ligne {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media screen and (max-width: 1250px) {
   .logo {
     width: 30vw;
@@ -115,7 +120,7 @@ footer ul {
   }
 
   body {
-    background-image: url(hogwarts_legacy_petit.png);
+    background-image: url("../Background/hogwarts_legacy_petit.png");
   }
 
   #buy {
@@ -125,5 +130,10 @@ footer ul {
   #logo_hp {
     width: 200px;
     height: 100px;
+  }
+
+  .chara {
+    width: 150px;
+    height: 100%;
   }
 }
