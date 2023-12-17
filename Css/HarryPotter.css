@@ -113,6 +113,14 @@ footer ul {
   display: flex;
 }
 
+h2 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
 @media screen and (max-width: 1250px) {
   .logo {
     width: 30vw;
@@ -139,5 +147,13 @@ footer ul {
   .chara {
     width: 150px;
     height: 100%;
+  }
+
+  #warnerbros {
+    display: block;
+  }
+
+  #logo-warner {
+    width: 60vh;
   }
 }
