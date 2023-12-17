@@ -109,6 +109,10 @@ footer ul {
   justify-content: space-around;
 }
 
+#warnerbros {
+  display: flex;
+}
+
 @media screen and (max-width: 1250px) {
   .logo {
     width: 30vw;
